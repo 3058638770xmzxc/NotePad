@@ -54,7 +54,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 ### 1. 主界面
 
-![应用界面](![应用界面](screenshots/(5Y60A~V~C~EZQS@CPTX02C.png
+![应用界面](![应用界面](screenshots/4.png)
 
 **界面说明**：
 - 顶部自定义ActionBar，显示应用名称
@@ -67,7 +67,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 **操作流程**：
 
 1. **进入新建笔记界面**
-   - ![应用界面](![应用界面](screenshots/)P1E_KJK0CC`W8VC@FOMOE0.png
+   - 截图：![应用界面](screenshots/4.png)
    - 操作：点击主界面右上角的"+"图标
    - 效果：进入空白的笔记编辑界面
    - **关键代码**：
@@ -84,7 +84,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
      ```
 
 2. **输入笔记内容**
-   - ![应用界面](![应用界面](screenshots/DQ]VL11US40[W)42~(L1@3110.png
+   - 截图：![应用界面](screenshots/4.png)
    - 操作：在正文区域输入笔记内容
    - 效果：标题区域显示默认的"无标题"或自动提取的内容
    - **关键代码**：
@@ -100,7 +100,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
      ```
 
 3. **添加标签**
-   - ![应用界面](![应用界面](screenshots/P3AT~{G9O2$D5MKR]75B6LP.png
+   - 截图：![应用界面](screenshots/4.png)
    - 操作：点击标签按钮，选择已有标签或创建新标签
    - 效果：标签添加到笔记中
    - **关键代码**：
@@ -118,7 +118,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
      ```
 
 4. **修改笔记标题**
-   - ![应用界面](![应用界面](screenshots/E5YMSSCLN~FP~2XC@XX(68Y.png
+   - 截图：![应用界面](screenshots/4.png)
    - 操作：点击标题区域，输入新标题
    - 效果：标题更新
    - **关键代码**：
@@ -138,7 +138,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
      ```
 
 5. **保存笔记**
-   - ![应用界面](![应用界面](screenshots/V2~{{}P`_7LFW$A`97YA[C12.png
+   - 截图：![应用界面](screenshots/4.png)
    - 操作：点击顶部ActionBar的"保存"按钮
    - 效果：笔记保存到数据库，返回主界面
    - **关键代码**：
@@ -163,7 +163,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 #### 3.1 左右滑动显示/隐藏列表
 
 - **向左滑动**：隐藏笔记列表，显示空背景
-  - ![应用界面](![应用界面](screenshots/JZ5C6}@4G]WK%B2{_{[)@1119.png
+  - 截图：![应用界面](screenshots/4.png)
   - 操作：在主界面从右向左滑动
   - 效果：笔记列表向左滑出屏幕，只显示背景
   - **关键代码**：
@@ -223,7 +223,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 #### 4.1 全局搜索
 
-- ![应用界面](![应用界面](screenshots/%8E}Y07FFQ$GOSE81_KP{1G.png
+- 截图：![应用界面](screenshots/4.png)
 - 操作：
   1. 在主界面点击搜索图标
   2. 输入搜索关键词
@@ -249,7 +249,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 #### 4.2 标签内搜索
 
-- ![应用界面](![应用界面](screenshots/6D)_SCZD4DYOK$`%3~@]X]0.png
+- 截图：![应用界面](screenshots/4.png)
 - 操作：
   1. 点击标签进入标签过滤状态
   2. 点击搜索图标
@@ -282,7 +282,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 #### 5.1 排序方式设置
 
-- ![应用界面](![应用界面](screenshots/KDK)HVZB`YM~9K}PV68~0XV.png
+- 截图：![应用界面](screenshots/4.png)
 - 操作：
   1. 进入设置界面
   2. 找到"排序方式"选项
@@ -310,7 +310,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 ##### 5.2.1 背景颜色更换
 
-- ![应用界面](![应用界面](screenshots/U5_H[%9M(%M}(R3Y7O{BJYQ.png
+- 截图：![应用界面](screenshots/4.png)
 - 操作：
   1. 进入设置界面
   2. 点击"背景颜色"选项
@@ -352,7 +352,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 ##### 5.2.2 添加背景图片
 
-- ![应用界面](![应用界面](screenshots/FAV5TU_H%W1ZS{3X0}~3XHP.png
+- 截图：![应用界面](screenshots/4.png)
 - 操作：
   1. 进入设置界面
   2. 点击"背景图片"选项
@@ -400,7 +400,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 ### 6. 笔记编辑页设置
 
-- ![应用界面](![应用界面](screenshots/F$L[FHZV0}G_MXIP(7V8G(21.png)、![应用界面](screenshots/RT%SON24_O5Y41R3]@7VBLI.png
+- 截图：![应用界面](screenshots/4.png)
 - 操作：
   1. 进入笔记编辑界面
   2. 点击设置图标
@@ -441,7 +441,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 ### 7. 删除笔记
 
-- ![应用界面](![应用界面](screenshots/FT%FS%0(%JJ)04CSBA{J@WU.png
+- 截图：![应用界面](screenshots/4.png)
 - 操作：
   1. 在笔记编辑界面点击删除图标
   2. 弹出删除确认对话框
@@ -454,12 +454,17 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
   public boolean onOptionsItemSelected(MenuItem item) {
       if (item.getItemId() == R.id.menu_delete) {
           // 显示删除确认对话框
-          new AlertDialog.Builder(this)\n                  .setTitle(R.string.dialog_delete_title)\n                  .setMessage(R.string.dialog_delete_message)\n                  .setPositiveButton(R.string.dialog_delete_confirm, new DialogInterface.OnClickListener() {
+          new AlertDialog.Builder(this)
+                  .setTitle(R.string.dialog_delete_title)
+                  .setMessage(R.string.dialog_delete_message)
+                  .setPositiveButton(R.string.dialog_delete_confirm, new DialogInterface.OnClickListener() {
                       @Override
                       public void onClick(DialogInterface dialog, int which) {
                           deleteNote();
                       }
-                  })\n                  .setNegativeButton(R.string.dialog_delete_cancel, null)\n                  .show();
+                  })
+                  .setNegativeButton(R.string.dialog_delete_cancel, null)
+                  .show();
           return true;
       }
       // 其他选项处理...
@@ -477,7 +482,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 ### 8. 未保存修改提示
 
-- ![应用界面](![应用界面](screenshots/_0Q4QTW3EOH[OF(J%0(JB719.png)、![应用界面](screenshots/]U$)B6DG(]S$ZLGOI{UWHOH.png
+- 截图：![应用界面](screenshots/4.png)
 - 操作场景：在笔记编辑界面修改内容后，未点击保存而点击返回
 - 效果：
   - 弹出提示对话框："您有未保存的更改"
@@ -501,21 +506,27 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
       
       if (contentChanged || tagChanged) {
           // 显示未保存修改提示对话框
-          new AlertDialog.Builder(this)\n                  .setTitle(R.string.dialog_unsaved_title)\n                  .setMessage(R.string.dialog_unsaved_message)\n                  .setPositiveButton(R.string.dialog_save, new DialogInterface.OnClickListener() {
+          new AlertDialog.Builder(this)
+                  .setTitle(R.string.dialog_unsaved_title)
+                  .setMessage(R.string.dialog_unsaved_message)
+                  .setPositiveButton(R.string.dialog_save, new DialogInterface.OnClickListener() {
                       @Override
                       public void onClick(DialogInterface dialog, int which) {
                           // 保存更改
                           onPause(); // 调用onPause()来保存内容
                           finish();
                       }
-                  })\n                  .setNegativeButton(R.string.dialog_dont_save, new DialogInterface.OnClickListener() {
+                  })
+                  .setNegativeButton(R.string.dialog_dont_save, new DialogInterface.OnClickListener() {
                       @Override
                       public void onClick(DialogInterface dialog, int which) {
                           // 不保存，直接退出
                           mShouldSkipSave = true; // 设置标志跳过自动保存
                           finish();
                       }
-                  })\n                  .setCancelable(false)\n                  .show();
+                  })
+                  .setCancelable(false)
+                  .show();
       } else {
           // 没有变化，直接退出
           finish();
@@ -713,12 +724,21 @@ Apache License 2.0
 
 ### 主界面
 
-![主界面](![应用界面](screenshots/(5Y60A~V~C~EZQS@CPTX02C.png)\n### 笔记编辑
+![主界面](![应用界面](screenshots/4.png)
 
-![笔记编辑](![应用界面](screenshots/)P1E_KJK0CC`W8VC@FOMOE0.png)\n### 搜索功能
+### 笔记编辑
 
-![搜索功能](![应用界面](screenshots/%8E}Y07FFQ$GOSE81_KP{1G.png)\n### 设置界面
+![笔记编辑](![应用界面](screenshots/4.png)
 
-![设置界面](![应用界面](screenshots/SOZQ{M`1@SY11YM{64X0SBW.png)\n### 背景设置
+### 搜索功能
 
-![背景设置](![应用界面](screenshots/U5_H[%9M(%M}(R3Y7O{BJYQ.png)
+![搜索功能](![应用界面](screenshots/4.png)
+
+### 设置界面
+
+![设置界面](![应用界面](screenshots/4.png)
+
+### 背景设置
+
+![背景设置](![应用界面](screenshots/4.png)
+
