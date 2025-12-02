@@ -54,7 +54,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 ### 1. 主界面
 
-**截图**：screenshots/(5Y60A~V~C~EZQS@CPTX02C.png
+**截图**：![截图](screenshots/(5Y60A~V~C~EZQS@CPTX02C.png
 
 **界面说明**：
 - 顶部自定义ActionBar，显示应用名称
@@ -352,7 +352,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 ##### 5.2.2 添加背景图片
 
-- ![截图](screenshots/bg_image_screen.png
+- ![截图](screenshots/FAV5TU_H%W1ZS{3X0}~3XHP.png
 - 操作：
   1. 进入设置界面
   2. 点击"背景图片"选项
@@ -454,17 +454,12 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
   public boolean onOptionsItemSelected(MenuItem item) {
       if (item.getItemId() == R.id.menu_delete) {
           // 显示删除确认对话框
-          new AlertDialog.Builder(this)
-                  .setTitle(R.string.dialog_delete_title)
-                  .setMessage(R.string.dialog_delete_message)
-                  .setPositiveButton(R.string.dialog_delete_confirm, new DialogInterface.OnClickListener() {
+          new AlertDialog.Builder(this)\n                  .setTitle(R.string.dialog_delete_title)\n                  .setMessage(R.string.dialog_delete_message)\n                  .setPositiveButton(R.string.dialog_delete_confirm, new DialogInterface.OnClickListener() {
                       @Override
                       public void onClick(DialogInterface dialog, int which) {
                           deleteNote();
                       }
-                  })
-                  .setNegativeButton(R.string.dialog_delete_cancel, null)
-                  .show();
+                  })\n                  .setNegativeButton(R.string.dialog_delete_cancel, null)\n                  .show();
           return true;
       }
       // 其他选项处理...
@@ -506,27 +501,21 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
       
       if (contentChanged || tagChanged) {
           // 显示未保存修改提示对话框
-          new AlertDialog.Builder(this)
-                  .setTitle(R.string.dialog_unsaved_title)
-                  .setMessage(R.string.dialog_unsaved_message)
-                  .setPositiveButton(R.string.dialog_save, new DialogInterface.OnClickListener() {
+          new AlertDialog.Builder(this)\n                  .setTitle(R.string.dialog_unsaved_title)\n                  .setMessage(R.string.dialog_unsaved_message)\n                  .setPositiveButton(R.string.dialog_save, new DialogInterface.OnClickListener() {
                       @Override
                       public void onClick(DialogInterface dialog, int which) {
                           // 保存更改
                           onPause(); // 调用onPause()来保存内容
                           finish();
                       }
-                  })
-                  .setNegativeButton(R.string.dialog_dont_save, new DialogInterface.OnClickListener() {
+                  })\n                  .setNegativeButton(R.string.dialog_dont_save, new DialogInterface.OnClickListener() {
                       @Override
                       public void onClick(DialogInterface dialog, int which) {
                           // 不保存，直接退出
                           mShouldSkipSave = true; // 设置标志跳过自动保存
                           finish();
                       }
-                  })
-                  .setCancelable(false)
-                  .show();
+                  })\n                  .setCancelable(false)\n                  .show();
       } else {
           // 没有变化，直接退出
           finish();
@@ -724,21 +713,12 @@ Apache License 2.0
 
 ### 主界面
 
-![主界面](screenshots/(5Y60A~V~C~EZQS@CPTX02C.png)
+![主界面](screenshots/(5Y60A~V~C~EZQS@CPTX02C.png)\n### 笔记编辑
 
-### 笔记编辑
+![笔记编辑](screenshots/)P1E_KJK0CC`W8VC@FOMOE0.png)\n### 搜索功能
 
-![笔记编辑](screenshots/)P1E_KJK0CC`W8VC@FOMOE0.png)
+![搜索功能](screenshots/%8E}Y07FFQ$GOSE81_KP{1G.png)\n### 设置界面
 
-### 搜索功能
-
-![搜索功能](screenshots/%8E}Y07FFQ$GOSE81_KP{1G.png)
-
-### 设置界面
-
-![设置界面](screenshots/SOZQ{M`1@SY11YM{64X0SBW.png)
-
-### 背景设置
+![设置界面](screenshots/SOZQ{M`1@SY11YM{64X0SBW.png)\n### 背景设置
 
 ![背景设置](screenshots/U5_H[%9M(%M}(R3Y7O{BJYQ.png)
-
