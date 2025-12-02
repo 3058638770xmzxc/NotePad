@@ -54,7 +54,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 ### 1. 主界面
 
-![主界面](screenshots/(5Y60A~V~C~EZQS@CPTX02C.png)
+**截图**：screenshots/(5Y60A~V~C~EZQS@CPTX02C.png
 
 **界面说明**：
 - 顶部自定义ActionBar，显示应用名称
@@ -352,7 +352,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 ##### 5.2.2 添加背景图片
 
-- ![截图](screenshots/FAV5TU_H%W1ZS{3X0}~3XHP.png
+- ![截图](screenshots/bg_image_screen.png
 - 操作：
   1. 进入设置界面
   2. 点击"背景图片"选项
@@ -741,5 +741,4 @@ Apache License 2.0
 ### 背景设置
 
 ![背景设置](screenshots/U5_H[%9M(%M}(R3Y7O{BJYQ.png)
-
 
