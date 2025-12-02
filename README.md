@@ -1,4 +1,4 @@
-﻿# NotePad - 一款功能丰富的Android笔记应用
+# NotePad - 一款功能丰富的Android笔记应用
 
 ## 项目介绍
 
@@ -53,7 +53,8 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 ## 详细使用说明
 
 ### 1. 主界面
- ![截图](screenshots/1.png)
+
+![截图](screenshots/2.png)
 
 **界面说明**：
 - 顶部自定义ActionBar，显示应用名称
@@ -66,7 +67,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 **操作流程**：
 
 1. **进入新建笔记界面**
-   ![截图](screenshots/2.png)
+   - ![截图](screenshots/3.png)
    - 操作：点击主界面右上角的"+"图标
    - 效果：进入空白的笔记编辑界面
    - **关键代码**：
@@ -83,7 +84,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
      ```
 
 2. **输入笔记内容**
-   -  ![截图](screenshots/3.png)
+   - ![截图](screenshots/13.png)
    - 操作：在正文区域输入笔记内容
    - 效果：标题区域显示默认的"无标题"或自动提取的内容
    - **关键代码**：
@@ -99,7 +100,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
      ```
 
 3. **添加标签**
-   -  ![截图](screenshots/4.png)
+   - ![截图](screenshots/23.png)
    - 操作：点击标签按钮，选择已有标签或创建新标签
    - 效果：标签添加到笔记中
    - **关键代码**：
@@ -117,7 +118,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
      ```
 
 4. **修改笔记标题**
-   -  ![截图](screenshots/5.png)
+   - ![截图](screenshots/14.png)
    - 操作：点击标题区域，输入新标题
    - 效果：标题更新
    - **关键代码**：
@@ -137,7 +138,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
      ```
 
 5. **保存笔记**
-   -  ![截图](screenshots/6.png)
+   - ![截图](screenshots/27.png)
    - 操作：点击顶部ActionBar的"保存"按钮
    - 效果：笔记保存到数据库，返回主界面
    - **关键代码**：
@@ -162,7 +163,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 #### 3.1 左右滑动显示/隐藏列表
 
 - **向左滑动**：隐藏笔记列表，显示空背景
-  -  ![截图](screenshots/7.png)
+  - ![截图](screenshots/21.png)
   - 操作：在主界面从右向左滑动
   - 效果：笔记列表向左滑出屏幕，只显示背景
   - **关键代码**：
@@ -222,7 +223,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 #### 4.1 全局搜索
 
--  ![截图](screenshots/8.png)
+- ![截图](screenshots/1.png)
 - 操作：
   1. 在主界面点击搜索图标
   2. 输入搜索关键词
@@ -248,7 +249,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 #### 4.2 标签内搜索
 
--  ![截图](screenshots/9.png)
+- ![截图](screenshots/8.png)
 - 操作：
   1. 点击标签进入标签过滤状态
   2. 点击搜索图标
@@ -281,7 +282,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 #### 5.1 排序方式设置
 
--  ![截图](screenshots/10.png)
+- ![截图](screenshots/22.png)
 - 操作：
   1. 进入设置界面
   2. 找到"排序方式"选项
@@ -309,7 +310,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 ##### 5.2.1 背景颜色更换
 
--  ![截图](screenshots/11.png)
+- ![截图](screenshots/26.png)
 - 操作：
   1. 进入设置界面
   2. 点击"背景颜色"选项
@@ -351,7 +352,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 ##### 5.2.2 添加背景图片
 
--  ![截图](screenshots/12.png)
+- ![截图](screenshots/16.png)
 - 操作：
   1. 进入设置界面
   2. 点击"背景图片"选项
@@ -399,7 +400,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 ### 6. 笔记编辑页设置
 
--  ![截图](screenshots/13.png)
+- ![截图](screenshots/15.png)、![截图](screenshots/24.png)
 - 操作：
   1. 进入笔记编辑界面
   2. 点击设置图标
@@ -440,7 +441,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 ### 7. 删除笔记
 
--  ![截图](screenshots/14.png)
+- ![截图](screenshots/17.png)
 - 操作：
   1. 在笔记编辑界面点击删除图标
   2. 弹出删除确认对话框
@@ -481,7 +482,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 ### 8. 未保存修改提示
 
--  ![截图](screenshots/15.png)
+- ![截图](screenshots/29.png)、![截图](screenshots/28.png)
 - 操作场景：在笔记编辑界面修改内容后，未点击保存而点击返回
 - 效果：
   - 弹出提示对话框："您有未保存的更改"
@@ -723,21 +724,20 @@ Apache License 2.0
 
 ### 主界面
 
-![主界面](screenshots/1.png)
+![主界面](screenshots/2.png)
 
 ### 笔记编辑
 
-![笔记编辑](screenshots/2.png)
+![笔记编辑](screenshots/3.png)
 
 ### 搜索功能
 
-![搜索功能](screenshots/8.png)
+![搜索功能](screenshots/1.png)
 
 ### 设置界面
 
-![设置界面](screenshots/19.png)
+![设置界面](screenshots/25.png)
 
 ### 背景设置
 
-![背景设置](screenshots/11.png)
-
+![背景设置](screenshots/26.png)
