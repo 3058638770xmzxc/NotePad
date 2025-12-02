@@ -54,7 +54,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 ### 1. 主界面
 
-**截图**：![截图](screenshots/(5Y60A~V~C~EZQS@CPTX02C.png
+**截图**：screenshots/main_screen.png
 
 **界面说明**：
 - 顶部自定义ActionBar，显示应用名称
@@ -84,7 +84,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
      ```
 
 2. **输入笔记内容**
-   - ![截图](screenshots/DQ]VL11US40[W)42~(L1@34.png
+   - ![截图](screenshots/input_content_screen.png
    - 操作：在正文区域输入笔记内容
    - 效果：标题区域显示默认的"无标题"或自动提取的内容
    - **关键代码**：
@@ -118,7 +118,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
      ```
 
 4. **修改笔记标题**
-   - ![截图](screenshots/E5YMSSCLN~FP~2XC@XX(68Y.png
+   - ![截图](screenshots/edit_title_screen.png
    - 操作：点击标题区域，输入新标题
    - 效果：标题更新
    - **关键代码**：
@@ -163,7 +163,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 #### 3.1 左右滑动显示/隐藏列表
 
 - **向左滑动**：隐藏笔记列表，显示空背景
-  - ![截图](screenshots/JZ5C6}@4G]WK%B2{_{[)@13.png
+  - ![截图](screenshots/swipe_left_screen.png
   - 操作：在主界面从右向左滑动
   - 效果：笔记列表向左滑出屏幕，只显示背景
   - **关键代码**：
@@ -310,7 +310,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 ##### 5.2.1 背景颜色更换
 
-- ![截图](screenshots/U5_H[%9M(%M}(R3Y7O{BJYQ.png
+- ![截图](screenshots/bg_color_screen.png
 - 操作：
   1. 进入设置界面
   2. 点击"背景颜色"选项
@@ -454,12 +454,17 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
   public boolean onOptionsItemSelected(MenuItem item) {
       if (item.getItemId() == R.id.menu_delete) {
           // 显示删除确认对话框
-          new AlertDialog.Builder(this)\n                  .setTitle(R.string.dialog_delete_title)\n                  .setMessage(R.string.dialog_delete_message)\n                  .setPositiveButton(R.string.dialog_delete_confirm, new DialogInterface.OnClickListener() {
+          new AlertDialog.Builder(this)
+                  .setTitle(R.string.dialog_delete_title)
+                  .setMessage(R.string.dialog_delete_message)
+                  .setPositiveButton(R.string.dialog_delete_confirm, new DialogInterface.OnClickListener() {
                       @Override
                       public void onClick(DialogInterface dialog, int which) {
                           deleteNote();
                       }
-                  })\n                  .setNegativeButton(R.string.dialog_delete_cancel, null)\n                  .show();
+                  })
+                  .setNegativeButton(R.string.dialog_delete_cancel, null)
+                  .show();
           return true;
       }
       // 其他选项处理...
@@ -501,21 +506,27 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
       
       if (contentChanged || tagChanged) {
           // 显示未保存修改提示对话框
-          new AlertDialog.Builder(this)\n                  .setTitle(R.string.dialog_unsaved_title)\n                  .setMessage(R.string.dialog_unsaved_message)\n                  .setPositiveButton(R.string.dialog_save, new DialogInterface.OnClickListener() {
+          new AlertDialog.Builder(this)
+                  .setTitle(R.string.dialog_unsaved_title)
+                  .setMessage(R.string.dialog_unsaved_message)
+                  .setPositiveButton(R.string.dialog_save, new DialogInterface.OnClickListener() {
                       @Override
                       public void onClick(DialogInterface dialog, int which) {
                           // 保存更改
                           onPause(); // 调用onPause()来保存内容
                           finish();
                       }
-                  })\n                  .setNegativeButton(R.string.dialog_dont_save, new DialogInterface.OnClickListener() {
+                  })
+                  .setNegativeButton(R.string.dialog_dont_save, new DialogInterface.OnClickListener() {
                       @Override
                       public void onClick(DialogInterface dialog, int which) {
                           // 不保存，直接退出
                           mShouldSkipSave = true; // 设置标志跳过自动保存
                           finish();
                       }
-                  })\n                  .setCancelable(false)\n                  .show();
+                  })
+                  .setCancelable(false)
+                  .show();
       } else {
           // 没有变化，直接退出
           finish();
@@ -713,12 +724,21 @@ Apache License 2.0
 
 ### 主界面
 
-![主界面](screenshots/(5Y60A~V~C~EZQS@CPTX02C.png)\n### 笔记编辑
+![主界面](screenshots/main_screen.png)
 
-![笔记编辑](screenshots/)P1E_KJK0CC`W8VC@FOMOE0.png)\n### 搜索功能
+### 笔记编辑
 
-![搜索功能](screenshots/%8E}Y07FFQ$GOSE81_KP{1G.png)\n### 设置界面
+![笔记编辑](screenshots/)P1E_KJK0CC`W8VC@FOMOE0.png)
 
-![设置界面](screenshots/SOZQ{M`1@SY11YM{64X0SBW.png)\n### 背景设置
+### 搜索功能
 
-![背景设置](screenshots/U5_H[%9M(%M}(R3Y7O{BJYQ.png)
+![搜索功能](screenshots/%8E}Y07FFQ$GOSE81_KP{1G.png)
+
+### 设置界面
+
+![设置界面](screenshots/SOZQ{M`1@SY11YM{64X0SBW.png)
+
+### 背景设置
+
+![背景设置](screenshots/bg_color_screen.png)
+
