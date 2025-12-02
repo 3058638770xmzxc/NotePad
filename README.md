@@ -54,7 +54,7 @@ NotePad是一款基于Android平台的笔记应用，演示了Android数据库�
 
 ### 1. 主界面
 
-**截图**：screenshots/(5Y60A~V~C~EZQS@CPTX02C.png
+![主界面](screenshots/(5Y60A~V~C~EZQS@CPTX02C.png)
 
 **界面说明**：
 - 顶部自定义ActionBar，显示应用名称
@@ -741,4 +741,5 @@ Apache License 2.0
 ### 背景设置
 
 ![背景设置](screenshots/U5_H[%9M(%M}(R3Y7O{BJYQ.png)
+
 
