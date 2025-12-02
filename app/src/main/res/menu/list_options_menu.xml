@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  Search menu item - magnifying glass icon at top, left of new note -->
+    <item android:id="@+id/menu_search"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/menu_search"
+          android:alphabeticShortcut='s'
+          android:showAsAction="always" />
+    <!--  This is our one standard application action (creating a new note). -->
+    <item android:id="@+id/menu_add"
+          android:icon="@drawable/ic_menu_compose"
+          android:title="@string/menu_add"
+          android:alphabeticShortcut='a'
+          android:showAsAction="always" />
+    <!--  Settings menu item - gear icon at top -->
+    <item android:id="@+id/menu_settings"
+          android:icon="@android:drawable/ic_menu_preferences"
+          android:title="@string/menu_settings"
+          android:showAsAction="always" />
+    <!--  Clear search / Return to all notes - shown at top when searching -->
+    <item android:id="@+id/menu_clear_search"
+          android:icon="@drawable/ic_arrow_back"
+          android:title="@string/menu_clear_search"
+          android:showAsAction="always" />
+    <!--  If there is currently data in the clipboard, this adds a PASTE menu item to the menu
+          so that the user can paste in the data.. -->
+    <item android:id="@+id/menu_paste"
+          android:icon="@drawable/ic_menu_compose"
+          android:title="@string/menu_paste"
+          android:alphabeticShortcut='p' />
+</menu>

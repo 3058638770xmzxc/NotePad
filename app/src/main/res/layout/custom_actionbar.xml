@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="8dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:background="#FAFAFA">
+
+    <ImageView
+        android:id="@+id/actionbar_back"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/ic_back"
+        android:contentDescription="返回"
+        android:layout_marginRight="16dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="6dp" />
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/app_notes"
+        android:contentDescription="@string/app_name"
+        android:layout_marginRight="16dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:id="@+id/actionbar_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="笔记标题"
+        android:textSize="20sp"
+        android:textColor="@color/primary_text"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:gravity="center_vertical|start"
+        android:paddingRight="8dp"
+        android:minHeight="56dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground" />
+
+</LinearLayout>

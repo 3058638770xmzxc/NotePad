@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Editor Background Color Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_editor_background"
+                android:textSize="16sp"
+                android:textColor="@color/primary_text"
+                android:textStyle="bold"
+                android:paddingBottom="12dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_color"
+                android:layout_marginBottom="12dp" />
+
+            <RadioGroup
+                android:id="@+id/editor_background_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/editor_bg_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/color_white"
+                    android:textColor="@color/primary_text"
+                    android:textSize="15sp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp" />
+
+                <RadioButton
+                    android:id="@+id/editor_bg_cream"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/color_cream"
+                    android:textColor="@color/primary_text"
+                    android:textSize="15sp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp" />
+
+                <RadioButton
+                    android:id="@+id/editor_bg_blue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/color_blue"
+                    android:textColor="@color/primary_text"
+                    android:textSize="15sp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp" />
+
+                <RadioButton
+                    android:id="@+id/editor_bg_green"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/color_green"
+                    android:textColor="@color/primary_text"
+                    android:textSize="15sp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- Font Size Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_font_size"
+                android:textSize="16sp"
+                android:textColor="@color/primary_text"
+                android:textStyle="bold"
+                android:paddingBottom="12dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_color"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/font_size_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/font_size_label"
+                android:textColor="@color/secondary_text"
+                android:textSize="15sp"
+                android:paddingBottom="16dp" />
+
+            <SeekBar
+                android:id="@+id/font_size_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="16"
+                android:progress="8" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

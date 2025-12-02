@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">记事本</string>
+    <string name="live_folder_name">笔记</string>
+
+    <string name="title_edit_title">笔记标题：</string>
+    <string name="title_create">新建笔记</string>
+    <string name="title_edit">编辑：%1$s</string>
+    <string name="title_notes_list">笔记列表</string>
+
+    <string name="menu_add">新建笔记</string>
+    <string name="menu_search">搜索</string>
+    <string name="menu_clear_search">返回全部笔记</string>
+    <string name="menu_filter_tags">按标签筛选</string>
+    <string name="all_tags">全部标签</string>
+    <string name="no_tags_available">暂无标签</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_delete">删除</string>
+    <string name="menu_open">打开</string>
+    <string name="menu_revert">撤销更改</string>
+    <string name="menu_copy">复制</string>
+    <string name="menu_paste">粘贴</string>
+
+    <string name="button_ok">确定</string>
+    <string name="text_title">标题：</string>
+
+    <string name="resolve_edit">编辑笔记</string>
+    <string name="resolve_title">编辑标题</string>
+
+    <string name="error_title">错误</string>
+    <string name="error_message">加载笔记时出错</string>
+    <string name="nothing_to_save">没有内容需要保存</string>
+    <string name="search_hint">按标题或内容搜索笔记…</string>
+    
+    <!-- Settings -->
+    <string name="menu_settings">设置</string>
+    <string name="settings_title">设置</string>
+    <string name="settings_theme">主题</string>
+    <string name="settings_list_background">列表背景颜色</string>
+    <string name="settings_editor_background">编辑器背景颜色</string>
+    <string name="settings_font_size">字体大小</string>
+    <string name="settings_sort_order">排序方式</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="color_white">白色</string>
+    <string name="color_cream">米色</string>
+    <string name="color_blue">蓝色</string>
+    <string name="color_green">绿色</string>
+    <string name="font_size_label">字体大小：%1$dsp</string>
+    <string name="sort_modified_desc">修改时间（最新优先）</string>
+    <string name="sort_modified_asc">修改时间（最旧优先）</string>
+    <string name="sort_title_asc">标题（A-Z）</string>
+    <string name="sort_title_desc">标题（Z-A）</string>
+    <string name="theme_changed_message">主题已更改，请重启应用。</string>
+    
+    <!-- Tag -->
+    <string name="tag_label">标签：</string>
+    <string name="tag_hint">选择标签（可选）</string>
+    <string name="new_tag">新建标签</string>
+    <string name="new_tag_title">新建标签</string>
+    <string name="new_tag_hint">请输入标签名称</string>
+    <string name="no_tag">无标签</string>
+</resources>
